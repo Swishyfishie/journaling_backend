@@ -31,5 +31,5 @@ production:
   <<: *default
   # database: db/production.sqlite3
   database: studying_app_production
-  database: studying_app
-  password: <%= ENV['STUDYINGAPP_PASSWORD'] %>
+  username: admin
+  password: password
